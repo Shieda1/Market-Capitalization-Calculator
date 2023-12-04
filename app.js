@@ -56,6 +56,7 @@ btn.addEventListener('click', function() {
 })
 
 // calculation
+
 function computemarketcapitalization() {
   return Number(priceofasingleshare.value) * Number(numberofoutstandingshares.value);
 }
